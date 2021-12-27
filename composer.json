@@ -29,16 +29,11 @@
             "Illuminate\\Mail\\Symfony\\": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "7.x-dev"
-        }
-    },
     "suggest": {
-        "symfony/amazon-mailer": "Required to enable support for the SES mail transport (^6.0).",
-        "symfony/http-client": "Required to use the Symfony API mail transports (^6.0).",
-        "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^6.0).",
-        "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.0)."
+        "symfony/amazon-mailer": "Required to enable support for the SES mail transport (^5.4).",
+        "symfony/http-client": "Required to use the Symfony API mail transports (^5.4).",
+        "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^5.4).",
+        "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^5.4)."
     },
     "config": {
         "sort-packages": true
